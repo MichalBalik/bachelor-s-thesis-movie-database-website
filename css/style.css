@@ -1,0 +1,205 @@
+
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+.header{
+    height:20vh;
+}
+
+.col-md-6, .col-md-10, .col-md-4,.col-md-8, #oknoTabulka,#podklad{
+    background-color:darkgrey;
+
+
+    border: 5px solid #28A745;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+
+.list-group{
+    max-height: 300px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+main {
+    height: 80vh;
+}
+
+.navbar-style
+{
+    box-shadow:0 5px 10px #efefef; /*aby bolo pod navigacnim barov shadow*/
+    text-transform: uppercase; /*len aby bolo navigacne menu v upercase*/
+    background-color: #555;
+}
+.logo {
+    height:48px; /*aby bolo logo dobre zoradene align */
+    padding: 2px 10px;
+
+}
+.icon-bar{
+    /*musim zmenit farbu menu aby som ho videl na stranke*/
+    background: darkorange;
+}
+
+
+
+li a {
+    color:black;
+
+}
+
+a.btn{
+    margin:30px 10px;
+    padding:10px;
+    width:150px;
+    border-radius: 20px;
+
+}
+a.btn-first{
+    background-color: darkorange;
+    color:orange;
+}
+a.btn-second{
+    background:transparent;
+    border: 1px solid darkorange;
+    color:black
+}
+a.btn:hover{
+    background:darkorange;
+    border:none;
+    color: white;
+    box-shadow:5px 5px 10px #999;
+    transition:0.3s;
+
+}
+
+.menu {
+    float:left;
+    width:20%;
+    text-align:center;}
+
+.skuska{
+    border: dashed;
+    background-color: red;
+
+
+}
+.card-body{
+
+    background-color: darkgray;
+}
+.card-header{
+    background-color: dimgrey;
+
+}
+
+div.card{
+    margin-top: 10px;
+    padding: 0;
+}
+a.btn.btn-primary{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.jumbotron{
+    margin-top: 1%;
+    padding-top: 10px;
+    background-color: cyan;
+    }
+a:hover  {
+    background-color: grey;
+}
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+th{
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+
+.card-img-overlay{
+    width: 100%;
+
+    height: 15vw;
+    object-fit: contain;
+}
+.card-img-top {
+    width: 100%;
+
+    height: 15vw;
+    object-fit: contain;
+}
+
+h1 {
+    background-color: darkgrey;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.row.content {height: 450px}
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+
+
+
+col-md-6,col-md-10{
+    background-color: #999999;
+
+}
+
+.card-footer {
+    border-top: none;
+}
+
+#zobrazenieOkna{
+    background-color:darkgray ;
+    border: 5px solid #28A745;
+    padding: 10px;
+
+}
+hr{
+    height: 5px;
+    background-color: #28A745;
+    border: none;
+}
